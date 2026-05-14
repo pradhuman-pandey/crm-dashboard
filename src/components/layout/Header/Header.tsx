@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 import { Menu, Bell } from "lucide-react";
-
-import Button from "../../ui/Button/Button";
 import SearchBar from "../../ui/SearchBar";
 import ProfileDropdown from "./ProfileDropdown";
 

@@ -13,5 +13,5 @@ export interface PerformanceItem {
 
   description: string;
 
-  className:string;
+  className?:string;
 }

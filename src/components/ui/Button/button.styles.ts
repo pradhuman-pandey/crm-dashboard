@@ -1,4 +1,4 @@
-export const buttonVariants = {
+export const buttonVariants:any = {
   base: `
     inline-flex
     items-center
