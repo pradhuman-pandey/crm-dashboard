@@ -85,8 +85,8 @@ const Header = ({
           <span
             className="
               absolute
-              right-1
-              top-1
+              right-2
+              top-2
               h-2
               w-2
               rounded-full
