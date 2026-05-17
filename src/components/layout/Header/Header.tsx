@@ -23,7 +23,6 @@ const Header = ({
       setCount6(count=> count+6);
     }
   },[count6])
-  
    useEffect(()=>{
     if(count4){
       console.log(count4);
