@@ -15,15 +15,15 @@ const Header = ({
 }: HeaderProps) => {
   const [count2, setCount2] = useState(0);
   const [count4, setCount4] = useState(0);
-  const [count5, setCount5] = useState(0);
+  const [count6, setCount6] = useState(0);
 
   useEffect(()=>{
-    if(count5){
-      console.log(count5);
-      setCount5(count=> count+4);
+    if(count6){
+      console.log(count6);
+      setCount6(count=> count+6);
     }
-  },[count5])
-
+  },[count6])
+  
    useEffect(()=>{
     if(count4){
       console.log(count4);
