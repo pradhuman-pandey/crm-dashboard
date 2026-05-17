@@ -86,7 +86,7 @@ const Header = ({
             className="
               absolute
               right-2
-              top-1
+              top-2
               h-2
               w-2
               rounded-full
