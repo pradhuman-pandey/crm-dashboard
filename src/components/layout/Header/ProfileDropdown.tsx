@@ -44,7 +44,7 @@ const ProfileDropdown = () => {
   return (
     <div
       ref={dropdownRef}
-      className="relative"
+      className="relative border-2"
     >
 
       <button
