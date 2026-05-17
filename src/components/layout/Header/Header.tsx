@@ -13,6 +13,15 @@ const Header = ({
   title = "Dashboard",
   onMenuClick,
 }: HeaderProps) => {
+  const [count2, setCount2] = useState(0);
+
+  useEffect(()=>{
+    if(count2){
+      console.log(count2);
+      setCount2(count=> count+2);
+    }
+  },[count2])
+
   const [count, setCount] = useState(0);
 
   useEffect(()=>{
