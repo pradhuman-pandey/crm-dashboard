@@ -14,6 +14,14 @@ const Header = ({
   onMenuClick,
 }: HeaderProps) => {
   const [count2, setCount2] = useState(0);
+   const [count3, setCount3] = useState(0);
+
+   useEffect(()=>{
+    if(count3){
+      console.log(count3);
+      setCount3(count=> count+3);
+    }
+  },[count2])
 
   useEffect(()=>{
     if(count2){
