@@ -80,7 +80,7 @@ const Header = ({
             hover:bg-gray-100
           "
         >
-          <Bell size={20} />
+          <Bell size={30} />
 
           <span
             className="
