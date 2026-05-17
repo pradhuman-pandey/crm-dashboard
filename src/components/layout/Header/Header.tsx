@@ -15,7 +15,8 @@ const Header = ({
 }: HeaderProps) => {
   const [count2, setCount2] = useState(0);
   const [count4, setCount4] = useState(0);
-  const [count5, setCount5] = useState(0);
+  const [count6, setCount6] = useState(0);
+  const [count7, setCount7] = useState(0);
   const [count8, setCount8] = useState(0);
 
   useEffect(()=>{
@@ -23,15 +24,21 @@ const Header = ({
       console.log(count8);
       setCount8(count=> count+4);
     }
-  },[count5])
+  },[count8])
 
   useEffect(()=>{
-    if(count5){
-      console.log(count5);
-      setCount5(count=> count+4);
+    if(count7){
+      console.log(count7);
+      setCount7(count=> count+6);
     }
-  },[count5])
+  },[count7])
 
+  useEffect(()=>{
+    if(count6){
+      console.log(count6);
+      setCount6(count=> count+6);
+    }
+  },[count6])
    useEffect(()=>{
     if(count4){
       console.log(count4);
