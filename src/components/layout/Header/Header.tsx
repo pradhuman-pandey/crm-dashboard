@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Menu, Bell } from "lucide-react";
 import SearchBar from "../../ui/SearchBar";
 import ProfileDropdown from "./ProfileDropdown";
+import { useEffect, useState } from "react";
 
 interface HeaderProps {
   title?: string;
@@ -12,6 +13,13 @@ const Header = ({
   title = "Dashboard",
   onMenuClick,
 }: HeaderProps) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(()=>{
+    if(count){
+      setCount((count)=>count+1);
+    }
+  },[count])
   return (
     <motion.header
       initial={{ y: -10, opacity: 0 }}
