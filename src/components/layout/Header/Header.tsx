@@ -80,12 +80,12 @@ const Header = ({
             hover:bg-gray-100
           "
         >
-          <Bell size={40} />
+          <Bell size={20} />
 
           <span
             className="
               absolute
-              right-2
+              right-1
               top-2
               h-2
               w-2
