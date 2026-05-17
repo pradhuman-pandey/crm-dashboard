@@ -16,6 +16,14 @@ const Header = ({
   const [count2, setCount2] = useState(0);
   const [count4, setCount4] = useState(0);
   const [count6, setCount6] = useState(0);
+  const [count7, setCount7] = useState(0);
+
+  useEffect(()=>{
+    if(count7){
+      console.log(count7);
+      setCount7(count=> count+6);
+    }
+  },[count7])
 
   useEffect(()=>{
     if(count6){
