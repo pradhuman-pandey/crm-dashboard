@@ -39,7 +39,7 @@ export const performanceData: PerformanceItem[] =
 
       title: "Customer Satisfaction",
 
-      currentValue: 89,
+      currentValue: 90,
 
       targetValue: 100,
 

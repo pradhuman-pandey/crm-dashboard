@@ -102,7 +102,7 @@ const PerformanceCard = ({
           max={item.targetValue}
           showPercentage={false}
           barColor="bg-emerald-500"
-          height="h-1"
+          height="h-2"
         />
       </div>
     </div>

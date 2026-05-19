@@ -10,7 +10,7 @@ export const progressBarStyles = {
     justify-between
     text-sm
     font-medium
-    text-gray-700
+    text-gray-600
   `,
 
   track: `
