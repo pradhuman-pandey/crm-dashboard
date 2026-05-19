@@ -11,7 +11,7 @@
 
 **Live Demo:** [https://crm-dashboard-v3.vercel.app/](https://crm-dashboard-v3.vercel.app/)
 
-**Design Inspiration Link:** [https://dribbble.com/shots/26768956-Dashboard-CRM-System](https://dribbble.com/shots/26768956-Dashboard-CRM-System)
+**Design Inspiration Link:** [https://dribbble.com/shots/26768956-Dashboard-CRM-System](https://dribbble.com/shots/26768956-Dashboard-CRM-System )
 
 ## ✨ Features
 
