@@ -9,7 +9,7 @@
 
 > A modern, production-ready admin dashboard with enterprise-grade features — fully responsive, beautifully animated, and built for scale.
 
-**Live Demo:** [https://your-dashboard.vercel.app](https://your-dashboard.vercel.app) *(replace with actual link)*
+**Live Demo:** [https://crm-dashboard-v3.vercel.app/](https://crm-dashboard-v3.vercel.app/) *(replace with actual link)*
 
 ## ✨ Features
 
