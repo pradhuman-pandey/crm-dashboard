@@ -7,7 +7,6 @@
 [![TanStack Table](https://img.shields.io/badge/TanStack_Table-8-FF4154?logo=react&logoColor=white)](https://tanstack.com/table)
 [![Recharts](https://img.shields.io/badge/Recharts-2-22B5BF?logo=chartdotjs&logoColor=white)](https://recharts.org/)
 
-> A modern, production-ready admin dashboard with enterprise-grade features — fully responsive, beautifully animated, and built for scale.
 
 **Live Demo:** [https://crm-dashboard-v3.vercel.app/](https://crm-dashboard-v3.vercel.app/)
 
