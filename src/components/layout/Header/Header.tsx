@@ -1,9 +1,8 @@
 import { motion } from "framer-motion";
 import { Menu, Bell } from "lucide-react";
-
-import Button from "../../ui/Button/Button";
 import SearchBar from "../../ui/SearchBar";
 import ProfileDropdown from "./ProfileDropdown";
+import { useEffect, useState } from "react";
 
 interface HeaderProps {
   title?: string;
@@ -14,6 +13,85 @@ const Header = ({
   title = "Dashboard",
   onMenuClick,
 }: HeaderProps) => {
+  const [count2, setCount2] = useState(0);
+  const [count4, setCount4] = useState(0);
+  const [count6, setCount6] = useState(0);
+  const [count7, setCount7] = useState(0);
+  const [count8, setCount8] = useState(0);
+  const [count9, setCount9] = useState(0);
+  const [count10, setCount10] = useState(0);
+
+  useEffect(()=>{
+    if(count10){
+      console.log(count10);
+      setCount10(count=> count+4);
+    }
+  },[count10])
+
+  useEffect(()=>{
+    if(count9){
+      console.log(count9);
+      setCount9(count=> count+4);
+    }
+  },[count9])
+  const [count12, setCount12] = useState(0);
+  
+  useEffect(()=>{
+    if(count12){
+      console.log(count12);
+      setCount12(count=> count+4);
+    }
+  },[count12])
+
+  useEffect(()=>{
+    if(count8){
+      console.log(count8);
+      setCount8(count=> count+4);
+    }
+  },[count8])
+
+  useEffect(()=>{
+    if(count7){
+      console.log(count7);
+      setCount7(count=> count+6);
+    }
+  },[count7])
+
+  useEffect(()=>{
+    if(count6){
+      console.log(count6);
+      setCount6(count=> count+6);
+    }
+  },[count6])
+   useEffect(()=>{
+    if(count4){
+      console.log(count4);
+      setCount4(count=> count+4);
+    }
+  },[count2])
+   const [count3, setCount3] = useState(0);
+
+   useEffect(()=>{
+    if(count3){
+      console.log(count3);
+      setCount3(count=> count+3);
+    }
+  },[count2])
+
+  useEffect(()=>{
+    if(count2){
+      console.log(count2);
+      setCount2(count=> count+2);
+    }
+  },[count2])
+
+  const [count, setCount] = useState(0);
+
+  useEffect(()=>{
+    if(count){
+      setCount((count)=>count+1);
+    }
+  },[count])
   return (
     <motion.header
       initial={{ y: -10, opacity: 0 }}
@@ -87,8 +165,8 @@ const Header = ({
           <span
             className="
               absolute
-              right-1
-              top-1
+              right-2
+              top-2
               h-2
               w-2
               rounded-full

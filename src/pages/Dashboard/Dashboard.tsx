@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 import StatsSection from "../../components/dashboard/StatsSection";
 import RevenueExpenses from "../../components/dashboard/RevenueExpenses";
 import Performance from "../../components/dashboard/PerformanceCard";
