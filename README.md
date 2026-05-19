@@ -95,11 +95,6 @@ Visual cells – sparkline weekly trends, progress bar for win probability, stat
 
 Loading skeleton – smooth placeholder while data fetches
 
-tsx
-// Usage example
-<SalesDeals />  // automatically handles loading state from DashboardContext
-🔹 Reusable Table (TanStack + custom cells)
-tsx
 <Table
   data={dealsData}
   columns={columns}
